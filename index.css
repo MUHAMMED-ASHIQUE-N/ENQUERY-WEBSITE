@@ -1,0 +1,247 @@
+*{
+    font-family: system-ui,sans-serif;
+}
+body{
+    margin: 0;
+}
+header{
+    display: flex;
+    padding: 1rem;
+    color: white;
+    /* color: #273713; */
+}
+.si{
+    background-image: url(./images-taxi/moin3.jpg);
+    width: 100%;
+    height: 44rem;
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: 0 0 500px black inset;
+}
+header .logo{
+    font-size: 1.2rem;
+    font-weight: bold;
+color: #dd9a2d;
+
+}
+header .desktop-nav ul{
+    display: flex;
+ margin: 0;
+
+}
+header li{
+    /* text-decoration:none; */
+    list-style: none;
+    padding: 0 15px;
+    
+}
+header li a{
+    text-decoration: none;
+    color: white;
+}
+header li a:hover{
+    color: #dd9a2d;
+}
+.enquery {
+margin-left: 700px;
+padding: 0 15px;
+}
+
+header button{
+    background: transparent;
+    color: white;
+    border: 1px solid white;
+    justify-content: end;
+    height: 50px;
+    width: 120px;
+    letter-spacing: 1px;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+header button:hover{
+background-color:#dd9a2d ;
+color: black;
+}
+
+.taxi-text p{
+    color: 
+    #ffc66c;
+    font-size: 60px;
+    max-width: 600px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    margin: 170px 0 0 130px ;
+}
+.taxi-text button{
+    background: transparent;
+    color: white;
+    border:1px solid white;
+    padding: 15px 30px;
+    margin: 30px 0 0 135px;
+}
+.page-2{
+    background-image: url(./images-taxi/fog-nature-forest-woods-india.jpg);
+    width: 100%;height: 44rem;
+    
+    
+    background-size: cover;
+  
+
+}
+.p2 p{
+    color: white;
+    font-size: 40px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    padding: 250px 0 0 150px;
+}
+.why-us{
+    color: white;
+    float: right;
+    margin: -250px 200px 0 0 ;
+}
+.why-us h1{
+    font-size:45px ;
+}
+.why-us ul{
+    margin-right: 80px;
+}
+.why-us li{
+    font-size: 20px;
+    padding: 5px;
+}
+.cards-bg{
+    background-color: black;
+    color: white;
+}
+.head-1{
+    text-align: center;
+}
+
+.cards-p{
+    display: flex;
+    background-color:#212122 ;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.cards-p img{
+    width: 350px;
+    border-radius: 15px;
+    padding: 5px;
+    margin-top: 15px;
+  
+}
+
+.Edakkal-Caves {
+    margin-top: 10px;
+    border-radius: 10px;
+    width: 370px;
+    height: 450px;
+   background-color:#292929;
+   padding: 0 0 0 25px;
+   box-shadow: 0 0 50px rgb(116, 115, 115) inset;
+}
+.kuruva-island {
+    margin-top: 10px;
+    border-radius: 10px;
+    width: 370px;
+    height: 450px;
+   background-color:#292929;
+   padding: 0 0 0 25px;
+   box-shadow: 0 0 50px rgb(116, 115, 115) inset;
+}
+.Chembra-Peak {
+    margin-top: 10px;
+    border-radius: 10px;
+    width: 370px;
+    height: 450px;
+   background-color:#292929;
+   padding: 0 0 0 25px;
+   box-shadow: 0 0 50px rgb(116, 115, 115) inset;
+}
+.our-packeges{
+    background-color: #212122;
+    margin-top: -20px;
+    color: white;
+    height: 44rem;
+    
+
+}
+.our-packeges h1{
+    text-align: center;
+    padding: 50px;
+}
+.packeges{
+    display: flex;
+    justify-content: space-evenly;
+}
+.packeges-table{
+    display: flex;
+    justify-content: center;
+}
+
+table{
+    border: 1px solid white;
+    border-collapse: collapse;
+
+    
+}
+table th, td{
+    padding: 10px;
+}
+.high{
+    width: 200px;
+}
+.container{
+    margin-top: -20px;
+    background-color:
+    #eaeae8 ;
+    height: 30rem;
+    padding-top: 50px;
+    padding-left: 12.5%;
+}
+.form-container{
+    background-color: rgb(255, 255, 255);
+    width: 85%;
+    height: 380px;
+    box-shadow: 2px 2px 20px rgb(94, 91, 91);
+}
+.form-container h1{
+    padding: 20px;
+    text-align: center;
+}
+form{
+    margin-left: 50px;
+   
+
+}
+
+input[type="email"],
+input[type="tel"],
+input[type="number"]{
+    width: 450px;
+    padding: 10px;
+    margin: 15px;
+}
+.name{
+    width: 450px;
+    padding: 10px;
+    margin: 15px;
+}
+.message{
+    width: 960px;
+    padding: 10px;
+    margin: 15px;
+    height: 30px;
+}
+.send{
+   margin-left: 40%;
+   width: 150px;
+   height: 40px;
+   background-color: #f7c02c;
+   border: none;
+   font-size: 20px;
+}
+
+
